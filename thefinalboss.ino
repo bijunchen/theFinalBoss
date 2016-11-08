@@ -109,14 +109,14 @@ void loop()
     //sweeper1.Close();       // stop the servo
   }
 
-  if (startServo == 3) {    // if the command is two
+  if (startServo == 3) {    // if the command is three
     sweeper1.SweepSmall();      // call the sweep small motion
   } else {
     //sweeper1.Close();       // stop the servo
   }
 
   if (startServo == 0) {    
-    pos = 0;    
+    pos = 1;     //set position to 1 
   } else {
     //sweeper1.Close();       // stop the servo
   }
